@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F4F5FE;
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+    padding: 80px 0px 0px 300px;
+}
+
+.top-block{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-block h1{
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+button{
+    width: 183px;
+    height: 46px;
+    border-radius: 10px;
+    background-color: #007FFF;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.box{
+    margin-top: 25px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.table{
+  margin-left: 15px;
+  color: #007FFF;
+}
+
+
+.text{
+    margin-left: 15px;
+}
+
+.container{
+    padding-top: 25px;
+    width: 1000px;
+    flex-wrap: wrap;
+    
+}
+
+.left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+hr{
+    border: .1px solid grey;
+    margin-top: 10px;
+}
+
+.left-cont{
+    width: 530px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.lorem-text{
+    width: 250px;
+}
+
+.right-cont{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+th{
+    color: #949494;
+}
+
+span{
+    cursor: pointer;
+}
+
+
+.active{
+    color: blue;
+}
+
+thead{
+    opacity: 0;
+}
+
+table{
+    /* border: 1px solid black; */
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th{
+    background-color: rgb(195, 212, 227);
+}
+td{
+    background-color: beige;
+    height: 100px;
+}
+
+.containertwo{
+   width: 350px;
+   height: 248px;
+   background-color: white;
+   border-radius: 10px;
+   padding: 24px 0px 0px 24px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rewrite{
+    margin-bottom: 11px;
+    font-size: 20px;
+}
+
+.some-text{
+    margin-bottom: 11px;
+}
+
+.bottom-block{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    margin-bottom: 11px;
+}
+
+.flex-cont{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
